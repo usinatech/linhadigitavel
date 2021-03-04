@@ -1,0 +1,28 @@
+{
+    "name": "usinatech/linhadigitavel",
+    "repositories": {
+        "url": "https://github.com/UsinaTech/LinhaDigitavel.git",
+        "type": "git"
+    },
+    "description": "Pacote para capturar a linha digitável do boleto do PagSeguro em PHP",
+    "license": "MIT",
+    "authors": [{
+        "name": "Alcimar Carlos de Lemos Vasconcelos e Aires",
+        "email": "alcimar@usina.tech"
+    }],
+    "type": "php-bundle",
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4",
+        "ramsey/uuid": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "UsinaTech\\LinhaDigitavel\\": "src/"
+        }
+    }
+}
