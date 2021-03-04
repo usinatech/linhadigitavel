@@ -4,7 +4,7 @@ Pacote para capturar a linha digitável do boleto do PagSeguro em PHP
 Instalando o Tesseract no Debian:  
 **sudo apt-get install tesseract-ocr**
 
-Instalando o Tesseract no Mac: 
+Instalando o Tesseract no Mac:
 **brew install tesseract**
 
 Utilizando o pacote no seu projeto PHP: 
